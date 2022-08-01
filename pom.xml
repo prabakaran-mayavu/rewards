@@ -27,6 +27,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- In Memory Database -->
+
+		<dependency>
+    		<groupId>org.apache.derby</groupId>
+   			 <artifactId>derby</artifactId>
+    			<version>10.13.1.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
